@@ -4,16 +4,16 @@
 $Services = @(
   "InstallService",
   "Spooler",              # Druckwarteschlange
-  "Browser",              # Browser
-  "WPDBusEnum",           # Enumeratordienst fÃ¼r tragbare GerÃ¤te
+#  "Browser",              # Browser (breaks RDP server with NLA error and Test-ComputerSecureChannel)
+  "WPDBusEnum",           # Enumeratordienst für tragbare GerÃ¤te
   "fdPHost",              # Funktionssuchanbieter-Host
   "ShellHWDetection",     # Shellhardwareerkennung
-  "TrkWks",               # Ãœberwachung verteilter VerknÃ¼pfungen (Client)
-  "bthserv",              # Bluetooth-UnterstÃ¼tzungsdienst
+  "TrkWks",               # Überwachung verteilter Verknüpfungen (Client)
+  "bthserv",              # Bluetooth-Unterstützungsdienst
   "NcbService",           # Netzwerkverbindungsbroker
-  "SensrSvc",             # SensorÃ¼berwachungsdienst
+  "SensrSvc",             # Sensorüberwachungsdienst
   "WiaRpc",               # Ereignisse zum Abrufen von Standbildern
-  "upnphost",             # UPnP-GerÃ¤tehost
+  "upnphost",             # UPnP-Gerätehost
   "AudioEndpointBuilder", # Windows-Audio-Endpunkterstellung
   "FrameServer"           # Windows-Kamera-FrameServer
 )
