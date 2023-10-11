@@ -15,6 +15,8 @@ $Services = @(
   "WiaRpc",               # Ereignisse zum Abrufen von Standbildern
   "upnphost",             # UPnP-Gerätehost
   "AudioEndpointBuilder", # Windows-Audio-Endpunkterstellung
+#  "LanmanServer",         # Server / SMB Server
+  "DiagTrack",         # Diagnostics Tracking Service (Telemetry)
   "FrameServer"           # Windows-Kamera-FrameServer
 )
 
