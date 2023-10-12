@@ -21,5 +21,5 @@ $Services = @(
 )
 
 foreach ($Service in $Services) {
-  Get-Service $Service | Set-Service -StartupType Disabled -Verbose
+  Get-Service $Service | Set-Service -StartupType Disabled -PassThru -Verbose | Stop-Service -Force -Verbose
 }
