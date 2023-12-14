@@ -2,6 +2,8 @@
 Collection of PowerShell Scripts to hardening Windows Server and Windows systems
 
 ## Standard hardening
+### Enable-FirewallAndLogging.ps1
+Enables Windows Firewall on all profiles with logging enabled separate for each profile
 ### DisableFirewallRoules.ps1
 Set of consumer network services to be deactivated via firewall roules
 ### DisableServices.ps1
