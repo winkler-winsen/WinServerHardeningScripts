@@ -8,7 +8,10 @@ Set-NetFirewallProfile `
     -NotifyOnListen True `
     -AllowUnicastResponseToMulticast True `
     -LogFileName %SystemRoot%\System32\LogFiles\Firewall\pfirewall.log `
-    -LogMaxSizeKilobytes 20480 
+    -LogMaxSizeKilobytes 20480 `
+    -LogAllowed True `
+    -LogBlocked True `
+    -LogIgnored True
 
 # Source https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/configure-logging?tabs=intune#recommendations
 Set-NetFirewallProfile `
